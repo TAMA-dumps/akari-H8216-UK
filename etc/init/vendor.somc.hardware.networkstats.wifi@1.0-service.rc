@@ -1,0 +1,6 @@
+service vendor.networkstats-wifi-1-0 /vendor/bin/hw/vendor.somc.hardware.networkstats.wifi@1.0-service
+    class hal
+    user wifi
+    group wifi net_raw net_admin
+    capabilities NET_RAW NET_ADMIN
+    interface vendor.somc.hardware.networkstats.wifi@1.0::IWifiStats default

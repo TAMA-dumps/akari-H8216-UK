@@ -1,0 +1,4 @@
+service vendor.misctafrp /vendor/bin/hw/android.hardware.oemlock@1.0-service
+    class hal
+    user system
+    group system
